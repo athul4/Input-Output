@@ -1,0 +1,6 @@
+<div class="container">
+    <h2>Parent Component</h2>
+    <input type="text" [(ngModel)]="myNameInParent">
+    <p>{{messageFromChild}}</p>
+</div>
+<app-child [myName]="myNameInParent" (sendMessageEmitter)="receiveMessage($event)"></app-child>

@@ -1,0 +1,10 @@
+div{
+    background-color: wheat;
+    color: darkmagenta;
+    min-height: 300px;
+    padding: 20px;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+}

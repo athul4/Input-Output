@@ -1,0 +1,10 @@
+div{
+    background-color: antiquewhite;
+    color: blue;
+    min-height: 300px;
+    padding: 20px;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+}
